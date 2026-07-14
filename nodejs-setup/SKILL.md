@@ -8,7 +8,7 @@ description: Node.js 環境建置與專案初始化
 
 💡 **初始化前置作業**：
 - **.gitignore**：建立標準 Git 忽略清單。
-- **Node 版本鎖定**：配置 `.nvmrc` 並在 `package.json` 中宣告 `engines`（如使用 pnpm 則需在 `package.json` 中宣告 `packageManager`）
+- **Node 版本鎖定**：配置 `.nvmrc` 並在 `package.json` 中宣告 `engines`（如使用 pnpm 則忽略此步驟）
 - **編輯器配置 💡**：建立 `.vscode/settings.json` 與 `extensions.json` 實現「存檔即自動修復與格式化」
 
 ## 品質管理套件
